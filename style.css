@@ -43,6 +43,14 @@ body{
     margin: 30px;
     height: 400px;
     overflow-y: scroll;
+    word-wrap: break-word; /* Ensures long words or strings wrap to the next line */
+    word-break: break-word; /* Breaks long words if necessary */
+    max-width: 100%; /* Ensures the paragraph doesn't exceed the container's width */
+    overflow-wrap: break-word; /* Adds additional support for wrapping */
+}
+.information{
+    width: 95%;
+    margin: 30px;
 }
 .info-container::-webkit-scrollbar{
     height: 12px;
