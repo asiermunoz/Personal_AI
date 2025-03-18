@@ -38,6 +38,8 @@ body{
 /* INFORMATION CONTAINER */
 .info-container{
     position: relative;
+    border: solid;
+    border-color: white;
     margin: 30px;
     height: 400px;
     overflow-y: scroll;
@@ -55,6 +57,13 @@ body{
     border-radius: 99px;
 }
 /* END OF INFORMATION CONTAINER */
+
+/* WELCOME INFO */
+.home-info{
+    border-color: white;
+}
+
+/* END OF WELCOME INFO*/
 
 
 /* SEARCH BAR */
