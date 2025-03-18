@@ -51,7 +51,7 @@ body{
     border-radius: 99px;
 }
 .info-container::-webkit-scrollbar-thumb{
-    background: rgb(0, 0, 0, 0.2);
+    background: rgb(0, 0, 0, 0.50);
     border-radius: 99px;
 }
 /* END OF INFORMATION CONTAINER */
