@@ -38,8 +38,6 @@ body{
 /* INFORMATION CONTAINER */
 .info-container{
     position: relative;
-    border: solid;
-    border-color: white;
     margin: 30px;
     height: 400px;
     overflow-y: scroll;
@@ -49,7 +47,7 @@ body{
     overflow-wrap: break-word; /* Adds additional support for wrapping */
 }
 .information{
-    width: 95%;
+    width: 90%;
     margin: 30px;
 }
 .info-container::-webkit-scrollbar{
